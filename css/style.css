@@ -1,0 +1,45 @@
+/* my style*/
+body{
+	width:100%;
+}
+#frogPond{
+	width:90%;
+	margin:0 auto;
+	background:url(../images/lake_rocks_mountains_autumn.jpg);
+}
+#frogPond li{
+	width: 13.5%;
+}
+#frogPond li .frog{
+	background: url(../images/my_transparent_frog.png) no-repeat;
+}
+#frogPond li button{
+	position:relative;
+	width: 99px;
+    height: 99px;
+	border:none;
+}
+li{
+	list-style-type:none;
+	display:inline-block;
+}
+#frogPond li .frog.male{
+	background-color: #7FFFD4;
+    transform: scale(-1, 1);
+}
+#frogPond li .frog.feminine{
+	background-color:#FFB6C1;
+}
+#frogPond li button span{
+	background: #32CD32;
+    height: 55px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 31px;
+    width: 106px;
+    transform: scaleY(-0.26) scaleX(1.05);
+    display: inline-block;
+    background-position-y: bottom;
+    position: absolute;
+    top: 70px;
+    left: -4px;
+}
